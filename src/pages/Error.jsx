@@ -7,12 +7,8 @@ function Error() {
     return (
       <div className="error-container container">
         <div>
-          <h3>
-            Oops... Looks like you took a wrong turn. Even Google Maps can't
-            find this page!
-          </h3>
-          <Link to={"/"} className="btn">
-            Go Back Home
+          <Link to={"/"}>
+            <img src="../public/assets/error.gif" alt="error image" />
           </Link>
         </div>
       </div>
