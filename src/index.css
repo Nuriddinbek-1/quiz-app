@@ -52,7 +52,7 @@
   --moon-icon: url("../assets/icon-sun-dark.svg");
 }
 
-.dark-mode {
+.dark {
   --light-grey-color: #313e51;
   --dark-naviy-color: #ffffff;
   --gray-navy-color: #abc1e1;
@@ -176,7 +176,7 @@ p {
   text-transform: capitalize;
 }
 
-body.dark-mode .btn {
+body.dark .btn {
   color: var(--dark-naviy-color);
 }
 
@@ -408,7 +408,7 @@ header input:checked + span span:first-child {
   flex-shrink: 0;
 }
 
-body.dark-mode .test-letter {
+body.dark .test-letter {
   background-color: var(--dark-naviy-color);
   color: #626c7f;
 }
@@ -418,7 +418,7 @@ body.dark-mode .test-letter {
   color: var(--purple-color);
 }
 
-body.dark-mode .test-label:hover .test-letter {
+body.dark .test-label:hover .test-letter {
   background-color: #f6e7ff;
   color: var(--purple-color);
 }
@@ -432,7 +432,7 @@ body.dark-mode .test-label:hover .test-letter {
   color: var(--prue-white-color);
 }
 
-body.dark-mode .test-label:has(> input:checked) .test-letter {
+body.dark .test-label:has(> input:checked) .test-letter {
   background-color: var(--purple-color);
   color: var(--dark-naviy-color);
 }
