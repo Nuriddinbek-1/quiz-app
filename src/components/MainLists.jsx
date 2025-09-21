@@ -18,7 +18,7 @@ function MainLists() {
           quizzes.data.map((item) => {
             return (
               <Link
-                to={`/quiz/${item.title}`}
+                to={`/quiz/${item.title.toLowerCase()}`}
                 key={item.title}
                 className="menu-item header-logo">
                 <figure style={{ backgroundColor: item.color }}>
