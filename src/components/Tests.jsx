@@ -99,14 +99,14 @@ function Tests({ quizzes }) {
                     {/* Icons */}
                     <img
                       className="test-icon-correct"
-                      src="../../public/assets/icon-correct.svg"
+                      src="/assets/icon-correct.svg"
                       alt="icon"
                       width={40}
                       height={40}
                     />
                     <img
                       className="test-icon-incorrect"
-                      src="../../public/assets/icon-incorrect.svg"
+                      src="/assets/icon-incorrect.svg"
                       alt="icon"
                       width={40}
                       height={40}
