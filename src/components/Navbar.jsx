@@ -27,7 +27,7 @@ function Navbar() {
             <Link to={"/"} className="header-logo">
               <figure>
                 <img
-                  src={`../../public/assets/icon-${title}.svg`}
+                  src={`./public/assets/icon-${title}.svg`}
                   alt={`${title} icon`}
                 />
               </figure>
