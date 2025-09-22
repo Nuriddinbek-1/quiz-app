@@ -26,7 +26,10 @@ function Navbar() {
           {title && (
             <Link to={"/"} className="header-logo">
               <figure>
-                <img src={`./assets/icon-${title}.svg`} alt={`${title} icon`} />
+                <img
+                  src={`../../public/assets/icon-${title}.svg`}
+                  alt={`${title} icon`}
+                />
               </figure>
               <span>{title}</span>
             </Link>
