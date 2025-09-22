@@ -186,7 +186,7 @@ body.dark .btn {
 
 /* HEADER START */
 .header {
-  padding-top: 83px;
+  padding-top: 40px;
   margin-bottom: 85px;
 }
 .header-container {
@@ -354,21 +354,20 @@ header input:checked + span span:first-child {
   margin-bottom: auto;
 }
 
-.test-proccess-container {
+.test-process-container {
   width: 100%;
   padding: 4px;
   background-color: var(--prue-white-color);
   border-radius: 999px;
 }
 
-.test-proccess {
+.test-process {
   height: 8px;
   background-color: var(--purple-color);
   border-radius: inherit;
-  width: 45%;
 }
 
-.test-list {
+.test-lists {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -376,7 +375,7 @@ header input:checked + span span:first-child {
 
 .test-label {
   background-color: var(--prue-white-color);
-  padding: 18px 20px;
+  padding: 15px 15px;
   width: 100%;
   display: flex;
   align-items: center;

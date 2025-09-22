@@ -17,12 +17,11 @@ function Quiz() {
   } = useFetch(
     `https://json-api.uz/api/project/nuriddinbek-quiz/quizzes?title=${title}`
   );
-  console.log(quizzes);
   return (
     <section className="container quiz-container">
       {isPending && <h3>Loading...</h3>}
       {error && <h3>{error}</h3>}
-      {quizzes && <Tests />}
+      {quizzes && <Tests quizzes={quizzes} />}
     </section>
   );
 }
